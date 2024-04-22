@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="main">
+    <div id="con">
+      <div id="subCon">
+        <div id="indicator">
+          <h3>Number of Vowels: <span id="count">0</span></h3>
+        </div>
+
+        <textarea onkeyup="vowelCount(this.value);" id="cont" placeholder="Enter a sentance here 🔎"></textarea>
+
+        <div id="clearText">
+          <button onclick="clearText()">CLEAR TEXT</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
